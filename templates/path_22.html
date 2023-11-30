@@ -1,0 +1,30 @@
+<style>
+    body {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+{% filter markdown %}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+__You decide this is too dangerous. This could be serious. As you get your bags and leave the room you drop the keys at the front desk and call an Uber. This is going too easily, you think. Then your suspicion is confirmed. Suddenly the old guy who welcomed you says, “Why are you checking out? We have an amazing event happening later today. I’ll give you a preview!”
+You sigh. This is a tough spot, but you have to make a decision. You decide to try and stall so you have some time to think this through. “What is this event?” You inquire.
+He is silent before answering, “I-it’s a surprise! You’ll love it! Pleeeease gooo!”
+That was weird. You stay silent, but this man wants an answer. At this point, you can’t stall any longer. You know you have to make a choice and do something.__
+
+{% endfilter %}
+
+<body><Body background="{{url_for('static', filename='door2.jpeg')}}" ></Body>
+
+<form action="/path221" method = "POST">
+    <p><input type = "submit" value = "Run for it" /></p>
+</form>
+<form action="/path222" method = "POST">
+    <p><input type = "submit" value = "Go to the preview" /></p>
+</form>

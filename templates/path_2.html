@@ -1,0 +1,26 @@
+<style>
+    body {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+{% filter markdown %}
+
+You need to listen. This hotel is weird, and you've always been curious, even as a kid. You creep up to the door and put your ear against the freezing metal keyhole. Your cheek touches the wood of the door, but it splinters you! You want to yelp, but you manage to stay quiet and whisper, “Owww” in a low voice. Soon a muffled sound comes from under the door! you hear a voice now.
+You think you hear, “We can't let anyone get suspicious. Then those crappy police people will come.” in a female voice. This excites you. This could be an unsolved mystery! Then you sigh. You're thinking too fast. It's probably nothing. Then you hear footsteps from the door you better go! you run to your room, unlock the door, and shut it behind you. You think about what you heard, but you lock the door first. You like the thrill of running and then locking a door after eavesdropping.  It brings back memories of your childhood. You used to play a game with your mom and your uncle  Where you listened to them, then ran away, and they tried to catch you. Your father was always working on new ideas for RocketFire, his company. Your Uncle was always there and the two of you were always close. You sigh. You hope to see him soon, along with Mom, too. But now you must think about the mystery.
+This could be too dangerous. Should you even try to stay here? Again, there is a chance that this is nothing. Should you keep doing your normal routine with that in mind? That way you can learn more and nothing changes if it's nothing. But again, if it's too much…
+
+{% endfilter %}
+
+<body><Body background="{{url_for('static', filename='door.jpeg')}}" text="#d1b6b6" ></Body>
+
+<form action="/path1" method = "POST">
+    <p><input type = "submit" value = "Stay" /></p>
+</form>
+<form 
+action="/path22" method = "POST">
+    <p><input type = "submit" value = "Leave" /></p>
+</form>
+</body>

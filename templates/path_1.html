@@ -1,0 +1,49 @@
+<style>
+    body {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+{% filter markdown %}
+
+You are in your room now, and you hope that the lodge is not too dangerous. You walk out of your room, into the “dining room”. It is another red, white, and gray room, with tables. All the wood here is driving you crazy! Everything here is metal, clay, and WOOD! It's like they’ve never heard of a modern build or even plastic. Then, a man walks in. He looks like a tourist, too. Maybe he is another guest?
+
+“Hi,” he says, “I'm Stan.”
+
+You decide to ask him about his experience in the lodge. “Why did you come here?”
+
+sighs. “I didn't have enough money to go anywhere else. And I swear there's something wrong with this place. Everyone's so weird here. Sometimes I think this place is full of evil magical people-” 
+
+“I agree, but maybe start being quieter?” you remark, afraid the creepy old man is eavesdropping. 
+
+“Oh, yeah,” he whispers.  “What do you think is going on?”
+
+“I don't know, but this lodge is not normal. By the way, I'm going on a hike after lunch,” You say as you take a bite. “Are you doing it, too?”
+
+“Yeah. The lodge pretty much begged me to do it. Why did you go here, instead of the big hotel a few streets away?”
+
+You say, “I wanted to stay in a mountain lodge. It seemed like I could walk out of here and go into town, but we can't even leave without a guide. How did this place get such good reviews, anyway?” You ask.
+
+“I once made three different accounts to review the same thing. They probably did a similar thing, with…” Stan looked at his phone and said, “126 reviews.”
+
+“Wow, that's a lot of reviews.”
+
+You talk with him for another hour, and you learn that Stan's last name is Wolinder. Stan lived in a little house in Ohio for many years with his three siblings, his mother, his father, and his grandmother. He had been saving up for a trip around the mountains for five months. You and Stan decide that it is safer to stick together and decide to hike together. You walk out of the building talking with him when you suddenly see the guide.“Ah, you two are the two lucky tourists! Welcome to the mountains.” The tour guide says. She is light-skinned, with clothes that are way too warm, and her hair is dyed red. Most of the hike is luckily uneventful, but close to the end, you think you hear voices again. They float in and out as the wind breezes past your face.
+
+You tell Stan, “Do you hear voices?”
+
+“Yes,” he responds.
+
+{% endfilter %}
+
+<body><Body background="{{url_for('static', filename='hike.jpeg')}}" text="#453030" ></Body>
+
+<form action="/path11" method = "POST">
+    <p><input type = "submit" value = "Follow the voices" /></p>
+</form>
+
+<form action="/path12" method = "POST">
+    <p><input type = "submit" value = "Keep walking" /></p>
+</form>

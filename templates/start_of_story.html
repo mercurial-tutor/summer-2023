@@ -1,0 +1,40 @@
+<style>
+    body {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+{% filter markdown %}
+#The Lodge of Mysteries
+###By Arie Rampelmann-Ramirez   
+
+Warning!!!
+
+---
+
+Do not read this book straight through from beginning to end. These pages contain many different adventures you can have as you travel time at the Humble Fruit Lodge. As you read along, you'll be asked to make decisions and choices. The adventures you have will be the result of the decisions you make. You are responsible because you choose! After you make a choice, go to the page number instructed to see what happens to you next.
+    
+You, a tourist, will learn that there are secrets in the Lodge. You need to maneuver the way and figure things out by yourself. Be careful or die. (Although, you might just die anyway.)
+
+---
+
+You hear the car’s brakes screech to a stop. You know that means you have arrived at your destination. The mountain lodge is a small place. Instead of going to the big hotel a few miles away that father suggested, you decided to go here, which seems more able to do what the locals do, Instead of just the touristy spots. You always have liked traveling, and you always miss out on stuff in the big hotels. The mountain lodge has a wooden front, painted in red and white, like a barn. Some parts have things falling off, looking like the whole building was about to collapse. Maybe it was better to go to the big hotel, you thought as you stepped out of the car and locked it. An old man with a beard and a top hat greets you by the door. 
+    
+“Hello,” he says, “thank you for staying with us at the Humble Fruit Lodge.” You whiff the scent of the old man perfume that old people always like and wrinkle your nose because you can’t help yourself.
+
+“What’s your name?” he asks.
+
+“Mike Looper,” you respond. As he leads you inside the hotel, you realize it’s just as bad as the outside. It’s stinky, all made of wood and metal, and some of the doors look like they’re about to fall from their hinges. Then you see a sword next to where you stand on the wall. “That is not creepy at all”, you mutter to yourself. The old man gives you the key and tells you your room is the third one to the right. He walks into a room and closes the door behind him. You hear the click of a lock, too. You start hearing whispers coming from the other side. You want to listen, but what if you get caught?
+
+{% endfilter %}
+
+<body><Body background="{{url_for('static', filename='code.jpeg')}}" text="#ffffff"></Body>
+
+    <form action="/path1" method = "POST">
+    <p><input type = "submit" value = "Go To Your Room" /></p>
+</form>
+<form action="/path2" method = "POST">
+    <p><input type = "submit" value = "Listen" /></p>
+</form>
