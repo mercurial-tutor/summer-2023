@@ -1,0 +1,26 @@
+<body style="background:#FFC0CB"; text="Green"></body>
+
+
+{% filter markdown %}
+
+You choose to keep progressing forward. The cold gray walls keep moving in the same direction. You start to think whether you made the right choice or not. Finally, the road starts to turn. 
+“HEY YOU! WHAT DO YOU THINK YOU'RE DOING OVER HERE!!?” A deafening voice booms over the whole maze. You cover your ears to protect yourself from the sound. You slowly creep down the path and find yourself face to face with a ginormous  gorilla the size of a bus. You take a few paces back, crouching in terror. The big monkey examines you as he towers over you. 
+“Ah. Oidijoli told me about you. You're the new challenger right?” The monkey asks calmly.
+“Yes,” you reply meekly. 
+“I'm Fissle. Missile's younger brother. What's your name?” Fissle says.
+“I'm Rohjalk,” you reply. “Is this a dead end?”
+“Nope. You just have to beat one minigame and you may pass. So, what will it be? Do you want to leave and try another route or stick around and do the minigame?”
+“What is a minigame?” you question. 
+All over this maze there are small games that you have to complete to keep moving through the maze. Usually if you fail one of the minigames, the result is death. So what is your choice?
+
+{% endfilter %}
+
+<form action="/page9" method="GET">
+    <p><input type="submit" value="Leave and go to the left path"></p>
+</form>
+<form action="/page10" method="GET">
+    <p><input type="submit" value="Leave and go to the right path"></p>
+</form>
+<form action="/page13" method="GET">
+    <p><input type="submit" value="Stay and play the minigame"></p>
+</form>

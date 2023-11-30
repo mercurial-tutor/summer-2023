@@ -1,0 +1,43 @@
+<body style="background:#FFC0CB"; text="Green"></body>
+
+
+{% filter markdown %}
+
+“Whom do you choose as your manager?” snarls Missile. You can feel your heartbeat go up and the room goes still. Wind flows past your ears as you look at the three of them. 
+“Choose someone now!” Oidijoli screams. 
+“Okay, I choose Octopoddle!” you announce. 
+“Woo hoo!!!” she shouts.“No one ever chooses me!” Octopoddle starts jumping up and down in her golden throne.
+
+*		*		*
+It has been two weeks training with Octopoddle and you feel more confident and strong than ever. You have heard some of the other trainees talking about a qualifying test that we have to compete in before the real trial. 
+“Hey Rohjalk! What do you think the qualifiers will be this year,” wonders a fellow trainee of Octopoddle. 
+“I'm not sure,” you respond. 
+“Whatever it is I hope we both make it through this.” he says.
+“So do I.” you murmur.
+
+A few days before the qualifying test, Octopoddle tells all of her trainees (which is about twenty to twenty-five people) to make a line by her office. You feel like this is an important discussion so you race there. Since you are second in line you did not have to wait long. 
+	“Next person in line!” you hear on the loudspeaker. 
+“Creeekk!” you slowly open the blue metal door. 
+“I have been expecting you, Rohjalk,” mumbles Octopoddle. “Let's make this quick. You probably already know about the qualifying test, right?” 
+“Yes,” you respond firmly. 
+“This year, the council has decided to let you choose one of two options for your test. The first option is to go through a maze with challenges along the way. The second option is to escape a monster of the council's choosing in the arena. For whichever one you choose, you will be given more details about it later. So what do you choose Rohjalk?”.
+
+If you choose challenge 1 (the maze), you start off with a fork in the road. The left path is page 9. 
+The right path is page 10. The middle path is page 12.
+
+If you want to do challenge 2 (the monster arena), flip to page 17
+
+{% endfilter %}
+
+<form action="/page12" method="GET">
+    <p><input type="submit" value="Go to the maze and take the middle path"></p>
+</form>
+<form action="/page10" method="GET">
+    <p><input type="submit" value="Go to the maze take a right"></p>
+</form>
+<form action="/page9" method="GET">
+    <p><input type="submit" value="Go into the maze and take a left"></p>
+</form>
+<form action="/page17" method="GET">
+    <p><input type="submit" value="Challenge the monster"></p>
+</form>
